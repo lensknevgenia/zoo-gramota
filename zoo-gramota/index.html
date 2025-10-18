@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЗооГрамота: Уроки доброты</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon"></div>
+                    <div class="logo-text">ЗооГрамота</div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#lessons">Уроки</a></li>
+                        <li><a href="#articles">Статьи</a></li>
+                        <li><a href="#games">Игры</a></li>
+                        <li><a href="#progress">Прогресс</a></li>
+                        <li><a href="#community">Сообщество</a></li>
+                    </ul>
+                </nav>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-secondary">Войти</a>
+                    <a href="#" class="btn btn-primary">Начать</a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Уроки доброты для детей</h1>
+                    <p>Изучайте, как правильно заботиться о животных, весело и интересно! Наши уроки подходят для детей от 3 до 16 лет.</p>
+                    <a href="#" class="btn btn-gradient">Начать урок</a>
+                </div>
+                <div class="hero-illustration">
+                    <div class="hand-paw"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section class="section articles-section" id="articles">
+        <div class="container">
+            <h2 class="section-title">Статьи по возрастным группам</h2>
+            
+            <div class="age-groups">
+                <div class="age-group active" data-target="young">
+                    <h3>3-7 лет</h3>
+                    <p>Для самых маленьких</p>
+                </div>
+                <div class="age-group" data-target="middle">
+                    <h3>7-12 лет</h3>
+                    <p>Средняя группа</p>
+                </div>
+                <div class="age-group" data-target="senior">
+                    <h3>12-16 лет</h3>
+                    <p>Старшая группа</p>
+                </div>
+            </div>
+            
+            <!-- Articles for 3-7 years -->
+            <div class="articles-container active" id="young">
+                <!-- Статьи для младшей группы -->
+                <div class="article-card">
+                    <h3>Кто такие наши питомцы? Знакомимся с миром животных</h3>
+                    <div class="article-meta">
+                        <span class="article-tag">15-20 минут</span>
+                        <span>Для самых маленьких</span>
+                    </div>
+                    <div class="article-content">
+                        <p>Яркая, визуально насыщенная статья с минимальным количеством текста для чтения родителями.</p>
+                        <ul class="article-points">
+                            <li>Заставка-приветствие с персонажем Пушистиком</li>
+                            <li>Знакомство с кошкой, собакой, птичкой и рыбкой</li>
+                            <li>Интерактивная игра "Угадай, кто говорит?"</li>
+                        </ul>
+                    </div>
+                    <div class="article-actions">
+                        <a href="#" class="btn btn-primary">Читать статью</a>
+                        <a href="#" class="btn btn-secondary">Смотреть видео</a>
+                    </div>
+                </div>
+                
+                <!-- Добавьте остальные статьи аналогично -->
+            </div>
+            
+            <!-- Articles for 7-12 years -->
+            <div class="articles-container" id="middle">
+                <!-- Статьи для средней группы -->
+            </div>
+            
+            <!-- Articles for 12-16 years -->
+            <div class="articles-container" id="senior">
+                <!-- Статьи для старшей группы -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Lessons Section -->
+    <section class="section" id="lessons">
+        <div class="container">
+            <h2 class="section-title">Популярные уроки</h2>
+            <div class="cards-grid">
+                <!-- Lesson Cards -->
+                <div class="card">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <h3>Как правильно гладить кошку</h3>
+                        <p>Узнайте, какие места кошки любят, когда их гладят.</p>
+                        <div class="card-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill"></div>
+                            </div>
+                            <div class="stars">
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Добавьте остальные карточки -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gamification Section -->
+    <section class="section" id="progress">
+        <div class="container">
+            <h2 class="section-title">Мой прогресс</h2>
+            <div class="gamification">
+                <div class="level-circle">
+                    <div class="level-text">5 ур.</div>
+                </div>
+                <h3>Друг животных</h3>
+                <p>Вы прошли 12 уроков и помогли 3 животным!</p>
+            </div>
+            
+            <h3 style="text-align: center; margin-bottom: 24px;">Мои достижения</h3>
+            <div class="achievements">
+                <div class="achievement">1</div>
+                <div class="achievement">2</div>
+                <div class="achievement">3</div>
+                <div class="achievement">4</div>
+                <div class="achievement">5</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>ЗооГрамота</h3>
+                    <ul>
+                        <li><a href="#">О проекте</a></li>
+                        <li><a href="#">Команда</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Партнёры</a></li>
+                    </ul>
+                </div>
+                <!-- Остальные колонки футера -->
+            </div>
+            <div class="copyright">
+                &copy; 2023 ЗооГрамота: Уроки доброты. Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

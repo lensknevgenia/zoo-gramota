@@ -1,0 +1,108 @@
+/* Mobile Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-text h1 {
+        font-size: 36px;
+    }
+    
+    .hand-paw {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .hand-paw::before {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .hand-paw::after {
+        width: 70px;
+        height: 70px;
+        top: 30px;
+        right: 30px;
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+    .hamburger {
+        display: flex;
+    }
+    
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .gamification {
+        padding: 24px;
+    }
+    
+    .age-groups {
+        flex-direction: column;
+    }
+    
+    .age-group {
+        min-width: auto;
+    }
+    
+    .article-actions {
+        flex-direction: column;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .hero-text h1 {
+        font-size: 42px;
+    }
+}
+
+/* Small Mobile Styles */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 12px;
+    }
+    
+    .section {
+        padding: 60px 0;
+    }
+    
+    .hero {
+        padding: 60px 0;
+    }
+    
+    .hero-text h1 {
+        font-size: 28px;
+    }
+    
+    .auth-buttons {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .article-card {
+        padding: 16px;
+    }
+}
